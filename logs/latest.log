@@ -8,3 +8,11 @@
 [01:32:54] [Server thread/INFO]: AaleXx left the game
 [01:37:35] [Server thread/INFO]: OFMartinX lost connection: Disconnected
 [01:37:35] [Server thread/INFO]: OFMartinX left the game
+[03:13:23] [Server thread/INFO]: Stopping the server
+[03:13:23] [Server thread/INFO]: Stopping server
+[03:13:23] [Server thread/INFO]: [SkinsRestorer] Disabling SkinsRestorer v13.6.1
+[03:13:23] [Server thread/INFO]: Saving players
+[03:13:23] [Server thread/INFO]: Saving worlds
+[03:13:23] [Server thread/INFO]: Saving chunks for level 'world_nether'/minecraft:the_nether
+[03:13:23] [Server thread/INFO]: Saving chunks for level 'world_the_end'/minecraft:the_end
+[03:13:23] [Server thread/INFO]: Saving chunks for level 'world'/minecraft:overworld

@@ -6,3 +6,11 @@
 [00:30:51] [Server thread/INFO]: [AaleXx: Set own game mode to Survival Mode]
 [00:32:38] [Server thread/INFO]: AaleXx lost connection: Disconnected
 [00:32:38] [Server thread/INFO]: AaleXx left the game
+[06:01:12] [Server thread/INFO]: Stopping the server
+[06:01:12] [Server thread/INFO]: Stopping server
+[06:01:12] [Server thread/INFO]: [SkinsRestorer] Disabling SkinsRestorer v13.6.1
+[06:01:12] [Server thread/INFO]: Saving players
+[06:01:12] [Server thread/INFO]: Saving worlds
+[06:01:12] [Server thread/INFO]: Saving chunks for level 'world_nether'/minecraft:the_nether
+[06:01:12] [Server thread/INFO]: Saving chunks for level 'world_the_end'/minecraft:the_end
+[06:01:12] [Server thread/INFO]: Saving chunks for level 'world'/minecraft:overworld

@@ -1,16 +1,20 @@
-[00:02:43] [Server thread/INFO]: AaleXx issued server command: /time set 0
-[00:02:43] [Server thread/INFO]: [AaleXx: Set the time to 0]
-[00:29:16] [Server thread/INFO]: AaleXx issued server command: /gamemode creative AaleXx
-[00:29:16] [Server thread/INFO]: [AaleXx: Set own game mode to Creative Mode]
-[00:30:51] [Server thread/INFO]: AaleXx issued server command: /gamemode survival AaleXx
-[00:30:51] [Server thread/INFO]: [AaleXx: Set own game mode to Survival Mode]
-[00:32:38] [Server thread/INFO]: AaleXx lost connection: Disconnected
-[00:32:38] [Server thread/INFO]: AaleXx left the game
-[06:01:12] [Server thread/INFO]: Stopping the server
-[06:01:12] [Server thread/INFO]: Stopping server
-[06:01:12] [Server thread/INFO]: [SkinsRestorer] Disabling SkinsRestorer v13.6.1
-[06:01:12] [Server thread/INFO]: Saving players
-[06:01:12] [Server thread/INFO]: Saving worlds
-[06:01:12] [Server thread/INFO]: Saving chunks for level 'world_nether'/minecraft:the_nether
-[06:01:12] [Server thread/INFO]: Saving chunks for level 'world_the_end'/minecraft:the_end
-[06:01:12] [Server thread/INFO]: Saving chunks for level 'world'/minecraft:overworld
+[00:09:47] [Server thread/INFO]: AaleXx issued server command: /time set 0
+[00:09:47] [Server thread/INFO]: [AaleXx: Set the time to 0]
+[00:38:05] [Server thread/INFO]: AaleXx lost connection: Disconnected
+[00:38:05] [Server thread/INFO]: AaleXx left the game
+[01:10:38] [Server thread/INFO]: xXCoke3Xx issued server command: /time set day
+[01:10:38] [Server thread/INFO]: [xXCoke3Xx: Set the time to 1000]
+[01:53:36] [Server thread/INFO]: xXCoke3Xx issued server command: /time set day
+[01:53:36] [Server thread/INFO]: [xXCoke3Xx: Set the time to 1000]
+[02:23:54] [Server thread/INFO]: xXCoke3Xx issued server command: /time set day
+[02:23:54] [Server thread/INFO]: [xXCoke3Xx: Set the time to 1000]
+[02:27:48] [Server thread/INFO]: xXCoke3Xx lost connection: Disconnected
+[02:27:48] [Server thread/INFO]: xXCoke3Xx left the game
+[02:51:10] [Server thread/INFO]: Stopping the server
+[02:51:10] [Server thread/INFO]: Stopping server
+[02:51:10] [Server thread/INFO]: [SkinsRestorer] Disabling SkinsRestorer v13.6.1
+[02:51:10] [Server thread/INFO]: Saving players
+[02:51:10] [Server thread/INFO]: Saving worlds
+[02:51:10] [Server thread/INFO]: Saving chunks for level 'world'/minecraft:overworld
+[02:51:10] [Server thread/INFO]: Saving chunks for level 'world_nether'/minecraft:the_nether
+[02:51:10] [Server thread/INFO]: Saving chunks for level 'world_the_end'/minecraft:the_end

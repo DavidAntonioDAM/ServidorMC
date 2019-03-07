@@ -1,8 +1,368 @@
-[00:01:16] [Server thread/INFO]: Stopping the server
-[00:01:16] [Server thread/INFO]: Stopping server
-[00:01:16] [Server thread/INFO]: [SkinsRestorer] Disabling SkinsRestorer v13.6.1
-[00:01:16] [Server thread/INFO]: Saving players
-[00:01:16] [Server thread/INFO]: Saving worlds
-[00:01:16] [Server thread/INFO]: Saving chunks for level 'world_the_end'/minecraft:the_end
-[00:01:16] [Server thread/INFO]: Saving chunks for level 'world_nether'/minecraft:the_nether
-[00:01:16] [Server thread/INFO]: Saving chunks for level 'world'/minecraft:overworld
+[18:09:25] [Server thread/INFO]: Starting minecraft server version 1.13.2
+[18:09:25] [Server thread/INFO]: Loading properties
+[18:09:25] [Server thread/INFO]: Default game type: SURVIVAL
+[18:09:25] [Server thread/INFO]: This server is running CraftBukkit version git-Spigot-518206a-a5b9c7b (MC: 1.13.2) (Implementing API version 1.13.2-R0.1-SNAPSHOT)
+[18:09:25] [Server thread/INFO]: Debug logging is disabled
+[18:09:25] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[18:09:25] [Server thread/INFO]: Using 4 threads for Netty based IO
+[18:09:25] [Server thread/INFO]: Generating keypair
+[18:09:26] [Server thread/INFO]: Starting Minecraft server on 192.168.1.128:25565
+[18:09:26] [Server thread/INFO]: Using default channel type
+[18:09:29] [Server thread/INFO]: [SkinsRestorer] Loading SkinsRestorer v13.6.1
+[18:09:29] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[18:09:29] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[18:09:29] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[18:09:29] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[18:09:29] [Server thread/INFO]: **** Beginning UUID conversion, this may take A LONG time ****
+[18:09:29] [Server thread/INFO]: Preparing level "world"
+[18:09:29] [Server thread/INFO]: Reloading ResourceManager: Default, bukkit
+[18:09:30] [Server thread/INFO]: Loaded 524 recipes
+[18:09:30] [Server thread/INFO]: -------- World Settings For [world] --------
+[18:09:30] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[18:09:30] [Server thread/INFO]: View Distance: 10
+[18:09:30] [Server thread/INFO]: Item Despawn Rate: 6000
+[18:09:30] [Server thread/INFO]: Item Merge Radius: 2.5
+[18:09:30] [Server thread/INFO]: Experience Merge Radius: 3.0
+[18:09:30] [Server thread/INFO]: Mob Spawn Range: 6
+[18:09:30] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[18:09:30] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
+[18:09:30] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[18:09:30] [Server thread/INFO]: Max TNT Explosions: 100
+[18:09:30] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[18:09:30] [Server thread/INFO]: Cane Growth Modifier: 100%
+[18:09:30] [Server thread/INFO]: Melon Growth Modifier: 100%
+[18:09:30] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[18:09:30] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[18:09:30] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[18:09:30] [Server thread/INFO]: Beetroot Growth Modifier: 100%
+[18:09:30] [Server thread/INFO]: Carrot Growth Modifier: 100%
+[18:09:30] [Server thread/INFO]: Potato Growth Modifier: 100%
+[18:09:30] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[18:09:30] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[18:09:30] [Server thread/INFO]: Vine Growth Modifier: 100%
+[18:09:30] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[18:09:30] [Server thread/INFO]: Random Lighting Updates: false
+[18:09:30] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16 / Tiv true
+[18:09:30] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[18:09:30] [Server thread/INFO]: Arrow Despawn Rate: 1200
+[18:09:30] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[18:09:30] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313Ocean: 14357621 Shipwreck: 165745295 Slime: 987234911
+[18:09:31] [Server thread/INFO]: -------- World Settings For [world_nether] --------
+[18:09:31] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[18:09:31] [Server thread/INFO]: View Distance: 10
+[18:09:31] [Server thread/INFO]: Item Despawn Rate: 6000
+[18:09:31] [Server thread/INFO]: Item Merge Radius: 2.5
+[18:09:31] [Server thread/INFO]: Experience Merge Radius: 3.0
+[18:09:31] [Server thread/INFO]: Mob Spawn Range: 6
+[18:09:31] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[18:09:31] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
+[18:09:31] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[18:09:31] [Server thread/INFO]: Max TNT Explosions: 100
+[18:09:31] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[18:09:31] [Server thread/INFO]: Cane Growth Modifier: 100%
+[18:09:31] [Server thread/INFO]: Melon Growth Modifier: 100%
+[18:09:31] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[18:09:31] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[18:09:31] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[18:09:31] [Server thread/INFO]: Beetroot Growth Modifier: 100%
+[18:09:31] [Server thread/INFO]: Carrot Growth Modifier: 100%
+[18:09:31] [Server thread/INFO]: Potato Growth Modifier: 100%
+[18:09:31] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[18:09:31] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[18:09:31] [Server thread/INFO]: Vine Growth Modifier: 100%
+[18:09:31] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[18:09:31] [Server thread/INFO]: Random Lighting Updates: false
+[18:09:31] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16 / Tiv true
+[18:09:31] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[18:09:31] [Server thread/INFO]: Arrow Despawn Rate: 1200
+[18:09:31] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[18:09:31] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313Ocean: 14357621 Shipwreck: 165745295 Slime: 987234911
+[18:09:31] [Server thread/INFO]: -------- World Settings For [world_the_end] --------
+[18:09:31] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[18:09:31] [Server thread/INFO]: View Distance: 10
+[18:09:31] [Server thread/INFO]: Item Despawn Rate: 6000
+[18:09:31] [Server thread/INFO]: Item Merge Radius: 2.5
+[18:09:31] [Server thread/INFO]: Experience Merge Radius: 3.0
+[18:09:31] [Server thread/INFO]: Mob Spawn Range: 6
+[18:09:31] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[18:09:31] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
+[18:09:31] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[18:09:31] [Server thread/INFO]: Max TNT Explosions: 100
+[18:09:31] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[18:09:31] [Server thread/INFO]: Cane Growth Modifier: 100%
+[18:09:31] [Server thread/INFO]: Melon Growth Modifier: 100%
+[18:09:31] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[18:09:31] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[18:09:31] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[18:09:31] [Server thread/INFO]: Beetroot Growth Modifier: 100%
+[18:09:31] [Server thread/INFO]: Carrot Growth Modifier: 100%
+[18:09:31] [Server thread/INFO]: Potato Growth Modifier: 100%
+[18:09:31] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[18:09:31] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[18:09:31] [Server thread/INFO]: Vine Growth Modifier: 100%
+[18:09:31] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[18:09:31] [Server thread/INFO]: Random Lighting Updates: false
+[18:09:31] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16 / Tiv true
+[18:09:31] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[18:09:31] [Server thread/INFO]: Arrow Despawn Rate: 1200
+[18:09:31] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[18:09:31] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313Ocean: 14357621 Shipwreck: 165745295 Slime: 987234911
+[18:09:31] [Server thread/INFO]: Preparing start region for level minecraft:the_nether (Seed: -4297854644085248041)
+[18:09:31] [Server thread/INFO]: Preparing spawn area: 4%
+[18:09:31] [Server thread/INFO]: Preparing spawn area: 8%
+[18:09:31] [Server thread/INFO]: Preparing spawn area: 12%
+[18:09:31] [Server thread/INFO]: Preparing spawn area: 16%
+[18:09:31] [Server thread/INFO]: Preparing spawn area: 20%
+[18:09:31] [Server thread/INFO]: Preparing spawn area: 24%
+[18:09:31] [Server thread/INFO]: Preparing spawn area: 28%
+[18:09:31] [Server thread/INFO]: Preparing spawn area: 32%
+[18:09:31] [Server thread/INFO]: Preparing spawn area: 36%
+[18:09:32] [Server thread/INFO]: Preparing spawn area: 40%
+[18:09:32] [Server thread/INFO]: Preparing spawn area: 44%
+[18:09:32] [Server thread/INFO]: Preparing spawn area: 48%
+[18:09:32] [Server thread/INFO]: Preparing spawn area: 52%
+[18:09:32] [Server thread/INFO]: Preparing spawn area: 56%
+[18:09:32] [Server thread/INFO]: Preparing spawn area: 60%
+[18:09:32] [Server thread/INFO]: Preparing spawn area: 64%
+[18:09:32] [Server thread/INFO]: Preparing spawn area: 68%
+[18:09:32] [Server thread/INFO]: Preparing spawn area: 72%
+[18:09:32] [Server thread/INFO]: Preparing spawn area: 76%
+[18:09:32] [Server thread/INFO]: Preparing spawn area: 80%
+[18:09:32] [Server thread/INFO]: Preparing spawn area: 84%
+[18:09:32] [Server thread/INFO]: Preparing spawn area: 88%
+[18:09:32] [Server thread/INFO]: Preparing spawn area: 92%
+[18:09:32] [Server thread/INFO]: Preparing spawn area: 96%
+[18:09:32] [Server thread/INFO]: Preparing spawn area: 100%
+[18:09:32] [Server thread/INFO]: Preparing start region for level minecraft:the_end (Seed: -4297854644085248041)
+[18:09:32] [Server thread/INFO]: Preparing spawn area: 4%
+[18:09:32] [Server thread/INFO]: Preparing spawn area: 8%
+[18:09:32] [Server thread/INFO]: Preparing spawn area: 12%
+[18:09:32] [Server thread/INFO]: Preparing spawn area: 16%
+[18:09:32] [Server thread/INFO]: Preparing spawn area: 20%
+[18:09:32] [Server thread/INFO]: Preparing spawn area: 24%
+[18:09:32] [Server thread/INFO]: Preparing spawn area: 28%
+[18:09:32] [Server thread/INFO]: Preparing spawn area: 32%
+[18:09:32] [Server thread/INFO]: Preparing spawn area: 36%
+[18:09:32] [Server thread/INFO]: Preparing spawn area: 40%
+[18:09:32] [Server thread/INFO]: Preparing spawn area: 44%
+[18:09:32] [Server thread/INFO]: Preparing spawn area: 48%
+[18:09:33] [Server thread/INFO]: Preparing spawn area: 52%
+[18:09:33] [Server thread/INFO]: Preparing spawn area: 56%
+[18:09:33] [Server thread/INFO]: Preparing spawn area: 60%
+[18:09:33] [Server thread/INFO]: Preparing spawn area: 64%
+[18:09:33] [Server thread/INFO]: Preparing spawn area: 68%
+[18:09:33] [Server thread/INFO]: Preparing spawn area: 72%
+[18:09:33] [Server thread/INFO]: Preparing spawn area: 76%
+[18:09:33] [Server thread/INFO]: Preparing spawn area: 80%
+[18:09:33] [Server thread/INFO]: Preparing spawn area: 84%
+[18:09:33] [Server thread/INFO]: Preparing spawn area: 88%
+[18:09:33] [Server thread/INFO]: Preparing spawn area: 92%
+[18:09:33] [Server thread/INFO]: Preparing spawn area: 96%
+[18:09:33] [Server thread/INFO]: Preparing spawn area: 100%
+[18:09:33] [Server thread/INFO]: Preparing start region for level minecraft:overworld (Seed: -4297854644085248041)
+[18:09:33] [Server thread/INFO]: Preparing spawn area: 4%
+[18:09:33] [Server thread/INFO]: Preparing spawn area: 8%
+[18:09:33] [Server thread/INFO]: Preparing spawn area: 12%
+[18:09:33] [Server thread/INFO]: Preparing spawn area: 16%
+[18:09:33] [Server thread/INFO]: Preparing spawn area: 20%
+[18:09:33] [Server thread/INFO]: Preparing spawn area: 24%
+[18:09:33] [Server thread/INFO]: Preparing spawn area: 28%
+[18:09:33] [Server thread/INFO]: Preparing spawn area: 32%
+[18:09:33] [Server thread/INFO]: Preparing spawn area: 36%
+[18:09:33] [Server thread/INFO]: Preparing spawn area: 40%
+[18:09:33] [Server thread/INFO]: Preparing spawn area: 44%
+[18:09:33] [Server thread/INFO]: Preparing spawn area: 48%
+[18:09:33] [Server thread/INFO]: Preparing spawn area: 52%
+[18:09:33] [Server thread/INFO]: Preparing spawn area: 56%
+[18:09:33] [Server thread/INFO]: Preparing spawn area: 60%
+[18:09:33] [Server thread/INFO]: Preparing spawn area: 64%
+[18:09:34] [Server thread/INFO]: Preparing spawn area: 68%
+[18:09:34] [Server thread/INFO]: Preparing spawn area: 72%
+[18:09:34] [Server thread/INFO]: Preparing spawn area: 76%
+[18:09:34] [Server thread/INFO]: Preparing spawn area: 80%
+[18:09:34] [Server thread/INFO]: Preparing spawn area: 84%
+[18:09:34] [Server thread/INFO]: Preparing spawn area: 88%
+[18:09:34] [Server thread/INFO]: Preparing spawn area: 92%
+[18:09:34] [Server thread/INFO]: Preparing spawn area: 96%
+[18:09:34] [Server thread/INFO]: Preparing spawn area: 100%
+[18:09:34] [Server thread/INFO]: Time elapsed: 3047 ms
+[18:09:34] [Server thread/INFO]: [SkinsRestorer] Enabling SkinsRestorer v13.6.1
+[18:09:34] [Server thread/INFO]: [0;33;1m[[0;32;22mSkinsRestorer[0;33;1m] [0;32;1mDetected Minecraft [0;33;1mv1_13_R2[0;32;1m, using [0;33;1mUniversalSkinFactory[0;32;1m.[m
+[18:09:34] [Server thread/INFO]: [ACF] Minecraft Version: 1.13
+[18:09:34] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[18:09:34] [Server thread/INFO]: Done (5.343s)! For help, type "help"
+[18:09:35] [Craft Scheduler Thread - 0/INFO]: [0;33;1m[[0;32;22mSkinsRestorer[0;33;1m] [0;32;1m----------------------------------------------[m
+[18:09:35] [Craft Scheduler Thread - 0/INFO]: [0;33;1m[[0;32;22mSkinsRestorer[0;33;1m] [0;32;1m    +===============+[m
+[18:09:35] [Craft Scheduler Thread - 0/INFO]: [0;33;1m[[0;32;22mSkinsRestorer[0;33;1m] [0;32;1m    | SkinsRestorer |[m
+[18:09:35] [Craft Scheduler Thread - 0/INFO]: [0;33;1m[[0;32;22mSkinsRestorer[0;33;1m] [0;32;1m    +===============+[m
+[18:09:35] [Craft Scheduler Thread - 0/INFO]: [0;33;1m[[0;32;22mSkinsRestorer[0;33;1m] [0;32;1m----------------------------------------------[m
+[18:09:35] [Craft Scheduler Thread - 0/INFO]: [0;33;1m[[0;32;22mSkinsRestorer[0;33;1m] [0;36;1m    Current version: [0;32;1m13.6.1[m
+[18:09:35] [Craft Scheduler Thread - 0/INFO]: [0;33;1m[[0;32;22mSkinsRestorer[0;33;1m] [0;32;1m    This is the latest version![m
+[18:09:35] [Craft Scheduler Thread - 0/INFO]: [0;33;1m[[0;32;22mSkinsRestorer[0;33;1m] [0;32;1m----------------------------------------------[m
+[18:12:44] [User Authenticator #1/INFO]: UUID of player AaleXx is a0a60cf3-816a-352b-8e6e-535162dc9f7d
+[18:12:45] [Server thread/INFO]: AaleXx[/188.127.160.105:22] logged in with entity id 405 at ([world]-239.23737925433062, 90.5, 349.3772383502126)
+[18:13:01] [Server thread/INFO]: AaleXx issued server command: /time set 0
+[18:13:01] [Server thread/INFO]: [AaleXx: Set the time to 0]
+[18:23:51] [Server thread/INFO]: AaleXx issued server command: /time set 0
+[18:23:51] [Server thread/INFO]: [AaleXx: Set the time to 0]
+[18:33:28] [Server thread/INFO]: AaleXx issued server command: /time set 0
+[18:33:28] [Server thread/INFO]: [AaleXx: Set the time to 0]
+[18:44:27] [Server thread/INFO]: AaleXx issued server command: /time set 0
+[18:44:27] [Server thread/INFO]: [AaleXx: Set the time to 0]
+[19:06:56] [Server thread/INFO]: AaleXx lost connection: Disconnected
+[19:06:56] [Server thread/INFO]: AaleXx left the game
+[20:44:36] [User Authenticator #2/INFO]: UUID of player xXCoke3Xx is 943e9f8b-5dec-31ad-bdfa-50281c3a9093
+[20:44:36] [Server thread/INFO]: xXCoke3Xx[/78.30.44.245:50204] logged in with entity id 13542 at ([world]-191.16329660080515, 64.0, 337.1862295743838)
+[20:55:36] [Server thread/INFO]: xXCoke3Xx issued server command: /time set day
+[20:55:36] [Server thread/INFO]: [xXCoke3Xx: Set the time to 1000]
+[21:04:22] [Server thread/INFO]: xXCoke3Xx lost connection: Disconnected
+[21:04:22] [Server thread/INFO]: xXCoke3Xx left the game
+[21:29:29] [User Authenticator #3/INFO]: UUID of player xXCoke3Xx is 943e9f8b-5dec-31ad-bdfa-50281c3a9093
+[21:29:29] [Server thread/INFO]: xXCoke3Xx[/78.30.44.245:50459] logged in with entity id 20203 at ([world]-337.9051428924448, 45.0, 205.69999998807904)
+[21:30:59] [Server thread/INFO]: xXCoke3Xx lost connection: Disconnected
+[21:30:59] [Server thread/INFO]: xXCoke3Xx left the game
+[21:31:43] [User Authenticator #4/INFO]: UUID of player xXCoke3Xx is 943e9f8b-5dec-31ad-bdfa-50281c3a9093
+[21:31:43] [Server thread/INFO]: xXCoke3Xx[/78.30.44.245:50578] logged in with entity id 20463 at ([world]-340.5882597546492, 45.0, 205.64359685709223)
+[21:41:56] [User Authenticator #5/INFO]: UUID of player AaleXx is a0a60cf3-816a-352b-8e6e-535162dc9f7d
+[21:41:57] [Server thread/INFO]: AaleXx[/188.127.160.105:22] logged in with entity id 21527 at ([world]-335.30676276853774, 46.0, 202.53139705221267)
+[21:49:52] [Async Chat Thread - #0/INFO]: <xXCoke3Xx> Hola[m
+[21:50:00] [Async Chat Thread - #0/INFO]: <AaleXx> hola[m
+[21:50:08] [Async Chat Thread - #0/INFO]: <xXCoke3Xx> Tengo otro arco con poder 4 xD[m
+[21:50:11] [Async Chat Thread - #0/INFO]: <AaleXx> entras en llamada?[m
+[21:50:44] [Async Chat Thread - #0/INFO]: <xXCoke3Xx> Si ahora, que voy a cenar los sandwiches del rodilla[m
+[21:50:52] [Async Chat Thread - #0/INFO]: <AaleXx> oka[m
+[21:50:54] [Async Chat Thread - #0/INFO]: <xXCoke3Xx> Que tardo 4 minutos, 1 por sandwich[m
+[21:51:01] [Async Chat Thread - #0/INFO]: <xXCoke3Xx> Quienes estais?[m
+[21:51:04] [Async Chat Thread - #0/INFO]: <AaleXx> jajajaja, vale[m
+[21:51:11] [Async Chat Thread - #0/INFO]: <xXCoke3Xx> O no habeis empezado?[m
+[21:51:14] [Async Chat Thread - #0/INFO]: <xXCoke3Xx> Ahora vuelvo[m
+[22:08:11] [Async Chat Thread - #1/INFO]: <xXCoke3Xx> im back[m
+[22:08:27] [Async Chat Thread - #1/INFO]: <xXCoke3Xx> Estoy en el canal de estoy de paso[m
+[22:08:33] [Async Chat Thread - #1/INFO]: <AaleXx> vale ahora voy[m
+[22:08:48] [Async Chat Thread - #1/INFO]: <xXCoke3Xx> Nuevo entrenador del madrid[m
+[22:09:01] [Async Chat Thread - #1/INFO]: <xXCoke3Xx> Aunque vuelve de haber estado antes[m
+[22:09:05] [Async Chat Thread - #1/INFO]: <xXCoke3Xx> A ver si lo adivinas[m
+[22:09:16] [Async Chat Thread - #1/INFO]: <AaleXx> anccelotti[m
+[22:09:21] [Async Chat Thread - #1/INFO]: <xXCoke3Xx> Noup[m
+[22:09:51] [Async Chat Thread - #1/INFO]: <AaleXx> ni idea[m
+[22:10:12] [Async Chat Thread - #1/INFO]: <xXCoke3Xx> Mourinho o eso he oido cuando he puesto la tele[m
+[22:12:12] [Server thread/INFO]: xXCoke3Xx issued server command: /time set 0
+[22:12:12] [Server thread/INFO]: [xXCoke3Xx: Set the time to 0]
+[22:22:04] [Server thread/INFO]: AaleXx issued server command: /time set 0
+[22:22:04] [Server thread/INFO]: [AaleXx: Set the time to 0]
+[22:32:07] [Server thread/INFO]: AaleXx issued server command: /tp AaleXx 360.790 67 -2830.015
+[22:32:08] [Server thread/INFO]: [AaleXx: Teleported AaleXx to 360.79, 67.0, -2830.015]
+[22:32:32] [Server thread/INFO]: xXCoke3Xx issued server command: /seed
+[22:32:58] [Server thread/INFO]: AaleXx issued server command: /time set 0
+[22:32:58] [Server thread/INFO]: [AaleXx: Set the time to 0]
+[22:33:21] [Server thread/INFO]: AaleXx issued server command: /tp AaleXx xXCoke3Xx
+[22:33:21] [Server thread/INFO]: [AaleXx: Teleported AaleXx to xXCoke3Xx]
+[22:35:07] [Async Chat Thread - #2/INFO]: <xXCoke3Xx> -179 66 340[m
+[22:35:29] [Server thread/INFO]: xXCoke3Xx issued server command: /tp xXCoke3Xx 0 64 0
+[22:35:29] [Server thread/INFO]: [xXCoke3Xx: Teleported xXCoke3Xx to 0.5, 64.0, 0.5]
+[22:35:37] [Server thread/INFO]: xXCoke3Xx issued server command: /tp xXCoke3Xx AaleXx
+[22:35:37] [Server thread/INFO]: [xXCoke3Xx: Teleported xXCoke3Xx to AaleXx]
+[22:36:13] [Server thread/INFO]: AaleXx issued server command: /tp AaleXx 360.790 67 -2830.015
+[22:36:13] [Server thread/INFO]: [AaleXx: Teleported AaleXx to 360.79, 67.0, -2830.015]
+[22:36:23] [Server thread/INFO]: AaleXx issued server command: /tp AaleXx xXCoke3Xx
+[22:36:23] [Server thread/INFO]: [AaleXx: Teleported AaleXx to xXCoke3Xx]
+[22:36:32] [Server thread/INFO]: xXCoke3Xx issued server command: /tp xXCoke3Xx -179 66 340
+[22:36:32] [Server thread/INFO]: [xXCoke3Xx: Teleported xXCoke3Xx to -178.5, 66.0, 340.5]
+[22:36:39] [Server thread/INFO]: xXCoke3Xx issued server command: /tp xXCoke3Xx 0 70 0
+[22:36:39] [Server thread/INFO]: [xXCoke3Xx: Teleported xXCoke3Xx to 0.5, 70.0, 0.5]
+[22:36:41] [Server thread/INFO]: xXCoke3Xx issued server command: /tp xXCoke3Xx -179 66 340
+[22:36:41] [Server thread/INFO]: [xXCoke3Xx: Teleported xXCoke3Xx to -178.5, 66.0, 340.5]
+[22:36:51] [Server thread/INFO]: AaleXx issued server command: /tp AaleXx 360.790 67 -2830.015
+[22:36:51] [Server thread/INFO]: [AaleXx: Teleported AaleXx to 360.79, 67.0, -2830.015]
+[22:36:53] [Server thread/INFO]: xXCoke3Xx issued server command: /tp xXCoke3Xx 0 80 0
+[22:36:53] [Server thread/INFO]: [xXCoke3Xx: Teleported xXCoke3Xx to 0.5, 80.0, 0.5]
+[22:38:45] [Server thread/INFO]: xXCoke3Xx issued server command: /tp xXCoke3Xx -408 60 -3356
+[22:38:48] [Server thread/INFO]: [xXCoke3Xx: Teleported xXCoke3Xx to -407.5, 60.0, -3355.5]
+[22:38:51] [Server thread/INFO]: xXCoke3Xx issued server command: /tp xXCoke3Xx -179 66 340
+[22:38:51] [Server thread/INFO]: [xXCoke3Xx: Teleported xXCoke3Xx to -178.5, 66.0, 340.5]
+[22:38:59] [Server thread/INFO]: xXCoke3Xx issued server command: /tp xXCoke3Xx -408 70 -3356
+[22:38:59] [Server thread/INFO]: [xXCoke3Xx: Teleported xXCoke3Xx to -407.5, 70.0, -3355.5]
+[22:39:01] [Server thread/INFO]: xXCoke3Xx issued server command: /tp xXCoke3Xx -179 66 340
+[22:39:01] [Server thread/INFO]: [xXCoke3Xx: Teleported xXCoke3Xx to -178.5, 66.0, 340.5]
+[22:39:10] [Server thread/INFO]: xXCoke3Xx issued server command: /tp xXCoke3Xx -408 80 -3356
+[22:39:10] [Server thread/INFO]: [xXCoke3Xx: Teleported xXCoke3Xx to -407.5, 80.0, -3355.5]
+[22:40:36] [Async Chat Thread - #3/INFO]: <xXCoke3Xx> -347 65 -3290[m
+[22:40:38] [Server thread/INFO]: xXCoke3Xx issued server command: /tp xXCoke3Xx -179 66 340
+[22:40:38] [Server thread/INFO]: [xXCoke3Xx: Teleported xXCoke3Xx to -178.5, 66.0, 340.5]
+[22:43:17] [Server thread/INFO]: AaleXx issued server command: /time set 0
+[22:43:17] [Server thread/INFO]: [AaleXx: Set the time to 0]
+[22:45:48] [Server thread/INFO]: xXCoke3Xx lost connection: Disconnected
+[22:45:48] [Server thread/INFO]: xXCoke3Xx left the game
+[22:46:26] [Server thread/INFO]: AaleXx issued server command: /gamemode creative AaleXx
+[22:46:26] [Server thread/INFO]: [AaleXx: Set own game mode to Creative Mode]
+[22:46:57] [Server thread/INFO]: AaleXx issued server command: /gamemode survival AaleXx
+[22:46:57] [Server thread/INFO]: [AaleXx: Set own game mode to Survival Mode]
+[22:48:36] [User Authenticator #6/INFO]: UUID of player xXCoke3Xx is 943e9f8b-5dec-31ad-bdfa-50281c3a9093
+[22:48:36] [Server thread/INFO]: xXCoke3Xx[/78.30.44.245:56184] logged in with entity id 39696 at ([world]-197.638824047249, 64.0, 327.9762472629758)
+[22:54:06] [Server thread/INFO]: xXCoke3Xx issued server command: /time set day
+[22:54:06] [Server thread/INFO]: [xXCoke3Xx: Set the time to 1000]
+[22:54:12] [Server thread/INFO]: xXCoke3Xx issued server command: /time set 0
+[22:54:12] [Server thread/INFO]: [xXCoke3Xx: Set the time to 0]
+[22:55:45] [Server thread/INFO]: AaleXx issued server command: /tp AaleXx xXCoke3Xx
+[22:55:45] [Server thread/INFO]: [AaleXx: Teleported AaleXx to xXCoke3Xx]
+[22:58:20] [Server thread/INFO]: xXCoke3Xx issued server command: /tp xXCoke3Xx -179 66 344
+[22:58:20] [Server thread/INFO]: [xXCoke3Xx: Teleported xXCoke3Xx to -178.5, 66.0, 344.5]
+[22:59:49] [Server thread/INFO]: xXCoke3Xx issued server command: /tp xXCoke3Xx -3900 66 -3600
+[22:59:49] [Server thread/INFO]: [xXCoke3Xx: Teleported xXCoke3Xx to -3899.5, 66.0, -3599.5]
+[23:00:28] [Server thread/INFO]: xXCoke3Xx issued server command: /tp xXCoke3Xx 3900 66 -3600
+[23:00:28] [Server thread/INFO]: [xXCoke3Xx: Teleported xXCoke3Xx to 3900.5, 66.0, -3599.5]
+[23:00:36] [Server thread/INFO]: xXCoke3Xx issued server command: /tp xXCoke3Xx 3900 76 -3600
+[23:00:36] [Server thread/INFO]: [xXCoke3Xx: Teleported xXCoke3Xx to 3900.5, 76.0, -3599.5]
+[23:01:10] [Async Chat Thread - #4/INFO]: <xXCoke3Xx> 3900 70 -3600[m
+[23:02:22] [Server thread/INFO]: AaleXx issued server command: /tp AaleXx xXCoke3Xx
+[23:02:22] [Server thread/INFO]: [AaleXx: Teleported AaleXx to xXCoke3Xx]
+[23:03:12] [Server thread/INFO]: AaleXx issued server command: /tp AaleXx 360.790 67 -2830.015
+[23:03:12] [Server thread/INFO]: [AaleXx: Teleported AaleXx to 360.79, 67.0, -2830.015]
+[23:04:26] [Server thread/INFO]: xXCoke3Xx issued server command: /time set 0
+[23:04:26] [Server thread/INFO]: [xXCoke3Xx: Set the time to 0]
+[23:07:46] [Server thread/INFO]: AaleXx issued server command: /tp AaleXx xXCoke3Xx
+[23:07:46] [Server thread/INFO]: [AaleXx: Teleported AaleXx to xXCoke3Xx]
+[23:08:38] [Server thread/INFO]: AaleXx issued server command: /tp AaleXx 360.790 67 -2830.015
+[23:08:38] [Server thread/INFO]: [AaleXx: Teleported AaleXx to 360.79, 67.0, -2830.015]
+[23:09:32] [Server thread/INFO]: xXCoke3Xx issued server command: /tp xXCoke3Xx -179 66 344
+[23:09:32] [Server thread/INFO]: [xXCoke3Xx: Teleported xXCoke3Xx to -178.5, 66.0, 344.5]
+[23:10:56] [Server thread/INFO]: AaleXx issued server command: /tp AaleXx -179 66 344
+[23:10:56] [Server thread/INFO]: [AaleXx: Teleported AaleXx to -178.5, 66.0, 344.5]
+[23:11:07] [Server thread/INFO]: AaleXx issued server command: /tp AaleXx 360.790 67 -2830.015
+[23:11:07] [Server thread/INFO]: [AaleXx: Teleported AaleXx to 360.79, 67.0, -2830.015]
+[23:12:29] [Server thread/INFO]: AaleXx issued server command: /tp AaleXx -179 66 344
+[23:12:29] [Server thread/INFO]: [AaleXx: Teleported AaleXx to -178.5, 66.0, 344.5]
+[23:13:22] [Server thread/INFO]: AaleXx issued server command: /time set 0
+[23:13:22] [Server thread/INFO]: [AaleXx: Set the time to 0]
+[23:16:09] [Server thread/INFO]: AaleXx issued server command: /tp AaleXx xXCoke3Xx
+[23:16:09] [Server thread/INFO]: [AaleXx: Teleported AaleXx to xXCoke3Xx]
+[23:23:39] [Server thread/INFO]: AaleXx issued server command: /tp AaleXx xXCoke3Xx
+[23:23:39] [Server thread/INFO]: [AaleXx: Teleported AaleXx to xXCoke3Xx]
+[23:24:09] [Server thread/INFO]: xXCoke3Xx issued server command: /time set 0
+[23:24:09] [Server thread/INFO]: [xXCoke3Xx: Set the time to 0]
+[23:24:33] [Server thread/INFO]: AaleXx issued server command: /tp AaleXx -179 106 344
+[23:24:33] [Server thread/INFO]: [AaleXx: Teleported AaleXx to -178.5, 106.0, 344.5]
+[23:24:35] [Server thread/INFO]: AaleXx fell from a high place
+[23:25:02] [Server thread/INFO]: xXCoke3Xx issued server command: /tp xXCoke3Xx AaleXx
+[23:25:02] [Server thread/INFO]: [xXCoke3Xx: Teleported xXCoke3Xx to AaleXx]
+[23:25:17] [Server thread/INFO]: AaleXx issued server command: /tp AaleXx -179 106 344
+[23:25:17] [Server thread/INFO]: [AaleXx: Teleported AaleXx to -178.5, 106.0, 344.5]
+[23:25:19] [Server thread/INFO]: AaleXx fell from a high place
+[23:26:52] [Server thread/INFO]: xXCoke3Xx issued server command: /time set night
+[23:26:52] [Server thread/INFO]: [xXCoke3Xx: Set the time to 13000]
+[23:27:01] [Async Chat Thread - #5/INFO]: <xXCoke3Xx> vamo ninio[m
+[23:27:05] [Async Chat Thread - #5/INFO]: <xXCoke3Xx> a dolmil[m
+[23:27:32] [Async Chat Thread - #5/INFO]: <xXCoke3Xx> vamoooooo[m
+[23:27:53] [Async Chat Thread - #5/INFO]: <xXCoke3Xx> -208 66 166[m
+[23:30:20] [Server thread/INFO]: AaleXx lost connection: Disconnected
+[23:30:20] [Server thread/INFO]: AaleXx left the game
+[23:30:49] [Server thread/INFO]: xXCoke3Xx lost connection: Disconnected
+[23:30:49] [Server thread/INFO]: xXCoke3Xx left the game
+[23:35:24] [Server thread/INFO]: Stopping the server
+[23:35:24] [Server thread/INFO]: Stopping server
+[23:35:24] [Server thread/INFO]: [SkinsRestorer] Disabling SkinsRestorer v13.6.1
+[23:35:24] [Server thread/INFO]: Saving players
+[23:35:25] [Server thread/INFO]: Saving worlds
+[23:35:25] [Server thread/INFO]: Saving chunks for level 'world_nether'/minecraft:the_nether
+[23:35:25] [Server thread/INFO]: Saving chunks for level 'world_the_end'/minecraft:the_end
+[23:35:25] [Server thread/INFO]: Saving chunks for level 'world'/minecraft:overworld

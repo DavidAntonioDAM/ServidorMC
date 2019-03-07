@@ -513,15 +513,21 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/light_blue_concrete_powder": {
+    "criteria": {
+      "has_sand": "2019-02-28 23:34:50 +0100"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/light_gray_concrete_powder": {
     "criteria": {
       "has_sand": "2019-02-28 23:34:50 +0100"
     },
     "done": true
   },
-  "minecraft:recipes/building_blocks/light_blue_concrete_powder": {
+  "minecraft:recipes/misc/brick": {
     "criteria": {
-      "has_sand": "2019-02-28 23:34:50 +0100"
+      "has_the_recipe": "2019-03-07 22:16:07 +0100"
     },
     "done": true
   },
@@ -661,6 +667,12 @@
   "minecraft:recipes/misc/cactus_green": {
     "criteria": {
       "has_cactus": "2019-03-03 11:55:37 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/brick_stairs": {
+    "criteria": {
+      "has_brick_block": "2019-03-07 22:16:16 +0100"
     },
     "done": true
   },
@@ -1044,6 +1056,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/blue_ice": {
+    "criteria": {
+      "has_at_least_9_packed_ice": "2019-03-07 23:01:19 +0100"
+    },
+    "done": true
+  },
   "minecraft:recipes/food/baked_potato": {
     "criteria": {
       "has_potato": "2019-02-28 23:33:48 +0100"
@@ -1335,6 +1353,12 @@
   "minecraft:recipes/decorations/light_blue_stained_glass_pane": {
     "criteria": {
       "has_glass": "2019-02-28 23:39:03 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/bricks": {
+    "criteria": {
+      "has_brick": "2019-03-07 22:16:08 +0100"
     },
     "done": true
   },
@@ -2003,6 +2027,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/decorations/flower_pot": {
+    "criteria": {
+      "has_brick": "2019-03-07 22:16:08 +0100"
+    },
+    "done": true
+  },
   "minecraft:husbandry/fishy_business": {
     "criteria": {
       "cod": "2019-03-03 00:49:11 +0100"
@@ -2042,6 +2072,12 @@
   "minecraft:recipes/building_blocks/polished_granite": {
     "criteria": {
       "has_stone": "2019-03-02 17:15:47 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/brick_slab": {
+    "criteria": {
+      "has_brick_block": "2019-03-07 22:16:16 +0100"
     },
     "done": true
   },

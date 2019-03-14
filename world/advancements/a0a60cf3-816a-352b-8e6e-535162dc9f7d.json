@@ -203,6 +203,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/misc/popped_chorus_fruit": {
+    "criteria": {
+      "has_chorus_fruit": "2019-03-14 03:17:58 +0100"
+    },
+    "done": true
+  },
   "minecraft:recipes/tools/shears": {
     "criteria": {
       "has_iron_ingot": "2019-02-28 23:13:45 +0100"
@@ -545,6 +551,12 @@
     },
     "done": true
   },
+  "minecraft:end/kill_dragon": {
+    "criteria": {
+      "killed_dragon": "2019-03-14 02:46:42 +0100"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/white_wool_from_string": {
     "criteria": {
       "has_string": "2019-03-01 04:03:58 +0100"
@@ -569,12 +581,19 @@
       "minecraft:cave_spider": "2019-03-01 16:20:46 +0100",
       "minecraft:guardian": "2019-03-03 01:06:18 +0100",
       "minecraft:enderman": "2019-03-02 21:35:08 +0100",
+      "minecraft:silverfish": "2019-03-14 02:13:44 +0100",
       "minecraft:spider": "2019-03-01 04:03:57 +0100",
       "minecraft:zombie": "2019-02-28 23:48:18 +0100",
-      "minecraft:creeper": "2019-03-01 04:24:59 +0100",
-      "minecraft:drowned": "2019-03-03 00:59:18 +0100"
+      "minecraft:drowned": "2019-03-03 00:59:18 +0100",
+      "minecraft:creeper": "2019-03-01 04:24:59 +0100"
     },
     "done": false
+  },
+  "minecraft:recipes/misc/ender_eye": {
+    "criteria": {
+      "has_blaze_powder": "2019-03-14 01:50:11 +0100"
+    },
+    "done": true
   },
   "minecraft:recipes/building_blocks/birch_wood": {
     "criteria": {
@@ -648,6 +667,12 @@
     },
     "done": true
   },
+  "minecraft:story/follow_ender_eye": {
+    "criteria": {
+      "in_stronghold": "2019-03-14 02:12:51 +0100"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/light_blue_stained_glass": {
     "criteria": {
       "has_glass": "2019-03-02 00:52:59 +0100"
@@ -699,6 +724,12 @@
   "minecraft:recipes/brewing/blaze_powder": {
     "criteria": {
       "has_blaze_rod": "2019-03-03 02:34:10 +0100"
+    },
+    "done": true
+  },
+  "minecraft:end/root": {
+    "criteria": {
+      "entered_end": "2019-03-14 02:36:57 +0100"
     },
     "done": true
   },
@@ -1014,6 +1045,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/brewing/magma_cream": {
+    "criteria": {
+      "has_blaze_powder": "2019-03-14 01:50:11 +0100"
+    },
+    "done": true
+  },
   "minecraft:recipes/misc/gray_dye": {
     "criteria": {
       "has_black_dye": "2019-03-01 22:16:54 +0100"
@@ -1023,10 +1060,12 @@
   "minecraft:adventure/adventuring_time": {
     "criteria": {
       "minecraft:jungle_edge": "2019-03-01 21:21:41 +0100",
-      "minecraft:mountains": "2019-03-01 19:05:44 +0100",
+      "minecraft:cold_ocean": "2019-03-14 01:56:21 +0100",
       "minecraft:forest": "2019-02-28 23:42:17 +0100",
+      "minecraft:mountains": "2019-03-01 19:05:44 +0100",
       "minecraft:taiga": "2019-03-01 21:17:32 +0100",
       "minecraft:desert_hills": "2019-03-01 19:39:54 +0100",
+      "minecraft:deep_cold_ocean": "2019-03-14 01:55:42 +0100",
       "minecraft:taiga_hills": "2019-03-01 22:32:36 +0100",
       "minecraft:desert": "2019-03-01 19:39:27 +0100",
       "minecraft:jungle": "2019-03-01 21:19:10 +0100",
@@ -1038,8 +1077,8 @@
       "minecraft:savanna_plateau": "2019-03-02 17:39:49 +0100",
       "minecraft:beach": "2019-03-01 19:42:32 +0100",
       "minecraft:dark_forest": "2019-03-01 19:15:43 +0100",
-      "minecraft:lukewarm_ocean": "2019-03-03 22:23:13 +0100",
       "minecraft:river": "2019-02-28 22:57:44 +0100",
+      "minecraft:lukewarm_ocean": "2019-03-03 22:23:13 +0100",
       "minecraft:birch_forest_hills": "2019-03-01 19:15:35 +0100",
       "minecraft:wooded_mountains": "2019-03-01 19:06:40 +0100",
       "minecraft:wooded_hills": "2019-02-28 22:54:44 +0100",
@@ -1137,6 +1176,12 @@
   "minecraft:recipes/decorations/brown_carpet": {
     "criteria": {
       "has_brown_wool": "2019-03-03 22:02:09 +0100"
+    },
+    "done": true
+  },
+  "minecraft:end/dragon_egg": {
+    "criteria": {
+      "dragon_egg": "2019-03-14 02:47:42 +0100"
     },
     "done": true
   },
@@ -1257,6 +1302,12 @@
   "minecraft:recipes/food/cooked_mutton": {
     "criteria": {
       "has_mutton": "2019-02-28 23:17:26 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/fire_charge": {
+    "criteria": {
+      "has_blaze_powder": "2019-03-14 01:50:11 +0100"
     },
     "done": true
   },
@@ -1463,6 +1514,7 @@
       "cooked_porkchop": "2019-03-01 15:59:49 +0100",
       "cooked_mutton": "2019-03-02 16:10:33 +0100",
       "cooked_beef": "2019-03-01 18:53:06 +0100",
+      "chorus_fruit": "2019-03-14 03:18:10 +0100",
       "baked_potato": "2019-03-02 17:23:20 +0100",
       "cooked_cod": "2019-03-02 16:59:03 +0100",
       "cookie": "2019-03-02 16:59:07 +0100",
@@ -1859,6 +1911,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/decorations/end_crystal": {
+    "criteria": {
+      "has_ender_eye": "2019-03-14 01:50:22 +0100"
+    },
+    "done": true
+  },
   "minecraft:recipes/decorations/green_bed_from_white_bed": {
     "criteria": {
       "has_bed": "2019-02-28 23:38:20 +0100"
@@ -1880,6 +1938,12 @@
   "minecraft:recipes/decorations/white_carpet": {
     "criteria": {
       "has_white_wool": "2019-02-28 23:17:26 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/ender_chest": {
+    "criteria": {
+      "has_ender_eye": "2019-03-14 01:50:22 +0100"
     },
     "done": true
   },
@@ -2153,6 +2217,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/misc/coal_from_smelting": {
+    "criteria": {
+      "has_coal_ore": "2019-03-14 02:12:22 +0100"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/andesite": {
     "criteria": {
       "has_stone": "2019-02-28 23:55:41 +0100"
@@ -2234,6 +2304,12 @@
   "minecraft:recipes/combat/leather_chestplate": {
     "criteria": {
       "has_leather": "2019-02-28 23:40:50 +0100"
+    },
+    "done": true
+  },
+  "minecraft:end/enter_end_gateway": {
+    "criteria": {
+      "entered_end_gateway": "2019-03-14 03:04:19 +0100"
     },
     "done": true
   },
@@ -2351,6 +2427,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/end_stone_bricks": {
+    "criteria": {
+      "has_end_stone": "2019-03-14 02:37:24 +0100"
+    },
+    "done": true
+  },
   "minecraft:recipes/redstone/heavy_weighted_pressure_plate": {
     "criteria": {
       "has_iron_ingot": "2019-02-28 23:13:45 +0100"
@@ -2414,6 +2496,12 @@
   "minecraft:recipes/decorations/brown_bed_from_white_bed": {
     "criteria": {
       "has_bed": "2019-02-28 23:38:20 +0100"
+    },
+    "done": true
+  },
+  "minecraft:story/enter_the_end": {
+    "criteria": {
+      "entered_end": "2019-03-14 02:36:57 +0100"
     },
     "done": true
   },

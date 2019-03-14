@@ -16,13 +16,8 @@ settings:
   save-user-cache-on-stop-only: false
   moved-too-quickly-multiplier: 10.0
   moved-wrongly-threshold: 0.0625
-  late-bind: false
-  user-cache-size: 1000
   bungeecord: false
   player-shuffle: 0
-  timeout-time: 60
-  restart-on-crash: true
-  restart-script: ./start.sh
   attribute:
     maxHealth:
       max: 2048.0
@@ -30,7 +25,12 @@ settings:
       max: 2048.0
     attackDamage:
       max: 2048.0
+  late-bind: false
   netty-threads: 4
+  timeout-time: 60
+  restart-on-crash: true
+  restart-script: ./start.sh
+  user-cache-size: 1000
   sample-count: 12
 messages:
   whitelist: You are not whitelisted on this server!
@@ -39,37 +39,38 @@ messages:
   outdated-client: Outdated client! Please use {0}
   outdated-server: Outdated server! I'm still on {0}
   restart: Server is restarting
-advancements:
+stats:
   disable-saving: false
-  disabled:
-  - minecraft:story/disabled
+  forced-stats: {}
 commands:
   silent-commandblock-console: false
+  spam-exclusions:
+  - /skill
   log: true
-  tab-complete: 0
-  send-namespaced: true
   replace-commands:
   - setblock
   - summon
   - testforblock
   - tellraw
-  spam-exclusions:
-  - /skill
-stats:
+  tab-complete: 0
+  send-namespaced: true
+advancements:
   disable-saving: false
-  forced-stats: {}
+  disabled:
+  - minecraft:story/disabled
 world-settings:
   default:
     verbose: true
-    wither-spawn-sound-radius: 0
-    arrow-despawn-rate: 1200
-    view-distance: 10
     enable-zombie-pigmen-portal-spawns: true
-    zombie-aggressive-towards-villager: true
-    item-despawn-rate: 6000
     merge-radius:
       item: 2.5
       exp: 3.0
+    item-despawn-rate: 6000
+    wither-spawn-sound-radius: 0
+    arrow-despawn-rate: 1200
+    view-distance: 10
+    hanging-tick-frequency: 100
+    zombie-aggressive-towards-villager: true
     growth:
       cactus-modifier: 100
       cane-modifier: 100
@@ -85,12 +86,6 @@ world-settings:
       vine-modifier: 100
       cocoa-modifier: 100
     mob-spawn-range: 6
-    max-tnt-per-tick: 100
-    squid-spawn-range:
-      min: 45.0
-    max-tick-time:
-      tile: 50
-      entity: 50
     hunger:
       jump-walk-exhaustion: 0.05
       jump-sprint-exhaustion: 0.2
@@ -99,11 +94,11 @@ world-settings:
       swim-multiplier: 0.01
       sprint-multiplier: 0.1
       other-multiplier: 0.0
-    entity-activation-range:
-      animals: 32
-      monsters: 32
-      misc: 16
-      tick-inactive-villagers: true
+    max-tick-time:
+      tile: 50
+      entity: 50
+    squid-spawn-range:
+      min: 45.0
     random-light-updates: false
     entity-tracking-range:
       players: 48
@@ -115,8 +110,13 @@ world-settings:
       hopper-transfer: 8
       hopper-check: 1
     hopper-amount: 1
+    entity-activation-range:
+      animals: 32
+      monsters: 32
+      misc: 16
+      tick-inactive-villagers: true
+    max-tnt-per-tick: 100
     nerf-spawner-mobs: false
-    dragon-death-sound-radius: 0
     seed-village: 10387312
     seed-desert: 14357617
     seed-igloo: 14357618
@@ -126,4 +126,4 @@ world-settings:
     seed-shipwreck: 165745295
     seed-ocean: 14357621
     seed-slime: 987234911
-    hanging-tick-frequency: 100
+    dragon-death-sound-radius: 0
